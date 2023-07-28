@@ -1,6 +1,6 @@
 
  - name: Install Nginx
-   host: WEB
+   hosts: WEB
    tasks:
      - name: Install the latest version of Apache
        ansible.builtin.yum:
