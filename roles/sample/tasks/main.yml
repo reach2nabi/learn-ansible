@@ -7,3 +7,8 @@
      state: started
      name: httpd
      enable: yes
+ - name: Make sure a service unit is running
+   ansible.builtin.systemd:
+     state: started
+     name: nginx
+     enable: yes
