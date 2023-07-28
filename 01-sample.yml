@@ -12,10 +12,10 @@
         name: httpd
         enable: yes
 
-  - name: Installing Nginx1
-    hosts: WEB
-    become: true
-    roles:
-      - sample
+- name: Installing Nginx1
+  hosts: WEB
+  become: true
+  roles:
+    - sample
 
 
