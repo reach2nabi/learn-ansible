@@ -6,6 +6,7 @@
       ansible.builtin.yum:
         name: httpd
         state: latest
+
     - name: Make sure a service unit is running
       ansible.builtin.systemd:
         state: started
