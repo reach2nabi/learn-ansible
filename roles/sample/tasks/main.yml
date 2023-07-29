@@ -2,10 +2,10 @@
    ansible.builtin.systemd:
      name: httpd
      state: started
-     enable: yes
+     enabled: yes
 
  - name: Make sure a service unit is running
    ansible.builtin.systemd:
      name: nginx
      state: started
-     enable: yes
+     enabled: yes
